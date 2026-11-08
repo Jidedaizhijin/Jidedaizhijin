@@ -3,28 +3,10 @@
 
 # Jidedaizhijin
 
-*Building things I love, one idea at a time.*
+Digital technology enthusiast.
 
 <br>
 
-**Software · Design · Curiosity**
-
-<br>
-
----
-
-### ✦ Projects
-
-**[MemoTune](https://github.com/Jidedaizhijin)**
-
-A lightweight, customizable music player for Android.
-
-`Kotlin` · `Jetpack Compose` · `Media3`
-
-<br>
-
----
-
-*Stay curious. Keep building.*
+[Memotune](https://github.com/Jidedaizhijin/Memotune)
 
 </div>
