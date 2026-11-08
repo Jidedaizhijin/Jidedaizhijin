@@ -1,1 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#10141b" />
+  <meta name="description" content="Jidedaizhijin — Building things I love, one idea at a time." />
+  <title>Jidedaizhijin — Selected Work</title>
+  <style>
+    :root{color-scheme:dark;--bg:#10141b;--fg:#f4f6fa;--muted:#a3adbb;--line:#29313c;--accent:#c4d9f5}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--fg);font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+    body:before{content:"";position:fixed;inset:-30%;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at 72% 38%,rgba(77,113,165,.12),transparent 38%)}
+    a{color:inherit;text-decoration:none}a:focus-visible{outline:2px solid var(--accent);outline-offset:5px;border-radius:3px}
+    .shell{width:min(1100px,calc(100% - 72px));margin:auto;min-height:100svh;display:flex;flex-direction:column}
+    header,footer{display:flex;justify-content:space-between;align-items:center}header{padding:42px 0} .brand{font-size:15px;font-weight:650;letter-spacing:-.025em}.nav{font-size:13px;color:var(--muted);transition:color .2s}.nav:hover{color:white}
+    main{flex:1;display:flex;flex-direction:column;justify-content:center}.hero{padding:clamp(100px,15vh,180px) 0 clamp(110px,16vh,190px)}.eyebrow{color:#a9bdd8;letter-spacing:.18em;font-size:11px;font-weight:600;margin:0 0 29px}.hero h1{font-size:clamp(43px,7.2vw,90px);line-height:1.11;letter-spacing:-.065em;font-weight:580;max-width:920px;margin:0}.sub{margin:31px 0 0;color:var(--muted);font-size:15px;letter-spacing:.025em}
+    .work{border-top:1px solid var(--line);padding:27px 0 34px}.section-title{font-size:11px;text-transform:uppercase;letter-spacing:.17em;color:#8e9cad;margin:0 0 27px}.project{display:flex;justify-content:space-between;align-items:center;gap:24px;padding:19px 0 23px;border-bottom:1px solid var(--line);transition:padding .25s ease}.project:hover{padding-left:9px;padding-right:9px}.project h2{font-size:clamp(23px,3vw,32px);letter-spacing:-.045em;font-weight:550;margin:0 0 8px}.project p{font-size:14px;color:var(--muted);margin:0;line-height:1.6}.arrow{color:var(--accent);font-size:25px;transition:transform .25s}.project:hover .arrow{transform:translate(4px,-4px)}
+    footer{padding:28px 0 37px;color:#8190a2;font-size:12px}.footer-link{transition:color .2s}.footer-link:hover{color:white}
+    @media(max-width:600px){.shell{width:calc(100% - 42px)}header{padding:28px 0}.hero{padding:120px 0 140px}.hero h1{font-size:clamp(44px,11vw,64px)}.sub{font-size:14px}.project h2{font-size:26px}footer{padding-bottom:27px}}
+    @media(prefers-reduced-motion:no-preference){.reveal{animation:rise .8s both}.hero h1{animation-delay:.09s}.sub{animation-delay:.2s}.work{animation:rise .8s .3s both}@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}}
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <a class="brand" href="#top" aria-label="Back to top">Jidedaizhijin<span style="color:#a9bdd8">.</span></a>
+      <a class="nav" href="#work">Selected Work ↗</a>
+    </header>
+    <main id="top">
+      <section class="hero" aria-labelledby="intro">
+        <p class="eyebrow reveal">INDEPENDENT PROJECTS / 2026</p>
+        <h1 id="intro" class="reveal">Building things I love,<br>one idea at a time.</h1>
+        <p class="sub reveal">Software <span aria-hidden="true">·</span> Design <span aria-hidden="true">·</span> Curiosity</p>
+      </section>
+      <section class="work" id="work" aria-labelledby="work-title">
+        <h2 class="section-title" id="work-title">Selected Work</h2>
+        <a class="project" href="https://github.com/Jidedaizhijin?tab=repositories" target="_blank" rel="noopener noreferrer" aria-label="Explore MemoTune on GitHub">
+          <div><h2>MemoTune</h2><p>A lightweight, customizable music player for Android.</p></div>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </a>
+      </section>
+    </main>
+    <footer><span>© <span id="year">2026</span> Jidedaizhijin</span><a class="footer-link" href="https://github.com/Jidedaizhijin" target="_blank" rel="noopener noreferrer">GitHub ↗</a></footer>
+  </div>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
 
